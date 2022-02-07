@@ -1,0 +1,22 @@
+{
+  "routes": [
+    {
+      "route": "/*/restricted",
+      "allowedRoles": [
+        "secret"
+      ]
+    },
+    {
+      "route": "/login",
+      "redirect": "/.auth/login/github"
+    }
+  ],
+  "responseOverrides": {
+    "401": {
+      "redirect": "/401"
+    },
+    "404": {
+      "redirect": "/404"
+    }
+  }
+}

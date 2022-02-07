@@ -1,0 +1,15 @@
+{
+  "name": "azure_cli_route_wildcard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:piotr-lasota/azure-cli-route-wildcards-issue.git",
+  "author": "Piotr Lasota",
+  "license": "MIT",
+  "devDependencies": {
+    "@azure/static-web-apps-cli": "^0.8.2",
+    "serve": "^13.0.2"
+  },
+  "scripts": {
+    "demonstrate": "swa start http://localhost:3000 --run 'serve html'"
+  }
+}
